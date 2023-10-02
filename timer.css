@@ -1,0 +1,24 @@
+.timer-body{
+    padding: 0px 50px 50px 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timer-text{
+    color: crimson;
+    font-weight: 600;
+}
+button:hover{
+    border:2px solid;
+    border-color: black;  
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}
+.timer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    padding-left:200px ;
+}

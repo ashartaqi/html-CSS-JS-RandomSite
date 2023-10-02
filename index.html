@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="timer.css">
+    <title>Random Site</title>
+</head>
+<body>
+    <div>
+        <h2 class="output">
+            RANDOM SITE
+        </h2>
+        <div class="container" id="goatt">
+            <p class="goat">
+                GOAT
+            </p>
+            <button id="goat">
+                Show me a GOAT
+            </button>
+            <img id="goat-in-picture" class="goat-image">
+        </div>
+        <div class="container" id="funnyy">
+            <p class="funny">
+                Tell me something funny
+            </p>
+            <button id="joke">
+                Tell a joke
+            </button>
+            <p class="text" id="funny-joke"></p>
+        </div>
+        <div class="container" id="quotess">
+            <p class="wisdom">
+                GIve me some wisdom
+            </p>
+            <button id="random_quote">
+                Show a random quote
+            </button>
+            <p class="text" id="new-quote"></p>
+            <p class="text" id="quote-author"></p>
+
+        </div>
+        <div class="container" id="riddlee">
+            <p class="riddle">
+                I want a riddle
+            </p>
+            <button id="riddle">
+                Riddle me
+            </button>
+            <a href="" id="answer">Reveal Riddle Answer</a>
+
+        </div>
+        <div class="riddle-container">
+            <p id="riddle-question"></p>
+            <p id="riddle-answer"></p>
+        </div>
+    </div>
+
+    <div class="timer-body"> 
+        <h4>Timer:</h4>
+        <div class="timer-container">
+            <p class="timer-text" id="timer-hours">00</p>
+            <p class="timer-text">&#58;</p>
+            <p class="timer-text" id="timer-minutes">00</p>
+            <p class="timer-text">&#58;</p>
+            <p class="timer-text" id="timer-seconds">00</p>
+        </div>
+        <div class="timer-container">
+            <button id="start-timer">start</button>
+            <button id="stop-timer">stop</button>
+            <button id="reset-button">reset</button>
+        </div>
+    </div>
+    
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
